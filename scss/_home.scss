@@ -1,0 +1,257 @@
+// HARTSFIELD DESIGN
+// HOME PAGE STYLING
+
+#home {
+	#banner {
+		height: auto;
+		width: 100;
+		padding: 20% 10%;
+		box-sizing: border-box;
+		background-color: $hd-blue;
+		background-image: url("../img/banner-background.svg");
+		background-size: cover;
+		background-repeat: no-repeat;
+		background-position: 50% 50%;
+
+		@media screen and (min-width: 800px) {
+			padding: 10% 5%;
+			padding-top: 15%;
+
+			h1 {
+				font-size: 3.50em;
+			}
+		}
+
+		.grid-3 {
+			display: block;
+			margin: 0% auto;
+			padding: 5%;
+			box-sizing: border-box;
+			border: 1px solid #ffffff;
+
+			@media screen and (min-width: 600px) {
+				width: 80%;
+				display: block;
+			}
+			@media screen and (min-width: 800px) {
+				padding: 10% 5%;
+			}
+
+			h5 {
+				font-style: italic;
+
+				@media screen and (min-width: 800px) {
+					font-size: 1.75em;
+					margin-bottom: 0%;
+				}
+			}
+		} // END GRID-3
+	} // END BANNER SECTION
+
+	#about {
+		height: auto;
+		width: 100%;
+		padding: 20% 10%;
+		box-sizing: border-box;
+		background-color: $hd-darkgreen;
+		background-image: url("../img/about-background.svg");
+		background-size: cover;
+		background-repeat: no-repeat;
+		background-position: 50% 50%;
+
+		@media screen and (min-width: 800px) {
+			padding: 10% 5%;
+		}
+
+		.grid-3 {
+			@media screen and (min-width: 600px) {
+				width: 100%;
+				display: block;
+			}
+			@media screen and (min-width: 800px) {
+				width: 60%;
+				display: inline-block;
+				float: left;
+
+				h2 {
+					font-size: 2.75em;
+					padding-right: 10%;
+					box-sizing: border-box;
+				}
+			}
+		} // END GRID-3
+
+		.grid-2 {
+			background-color: rgba(255,255,255,0.10);
+			padding: 5%;
+			box-sizing: border-box;
+
+			@media screen and (min-width: 600px) {
+				width: 100%;
+				display: block;
+			}
+			@media screen and (min-width: 800px) {
+				width: 40%;
+				display: inline-block;
+				float: left;
+			}
+
+			p {
+				margin-bottom: 10%;
+			}
+		} // END GRID-2
+	} // END ABOUT SECTION
+
+	#contact {
+		height: auto;
+		width: 100%;
+		padding: 20% 10%;
+		box-sizing: border-box;
+		background-color: $hd-lightgreen;
+		background-image: url("../img/contact-background.svg");
+		background-size: cover;
+		background-repeat: no-repeat;
+		background-position: 50% 50%;
+
+		@media screen and (min-width: 800px) {
+			padding: 10% 5%;
+		}
+
+		.grid-5 {
+			&:first-child {
+				@media screen and (min-width: 800px) {
+					text-align: center;
+
+					h2 {
+						font-size: 3.00em;
+					}
+				}
+			} // END ROW-1
+
+			&:last-child {
+				.grid-2 {
+					margin-bottom: 10%;
+
+					@media screen and (min-width: 600px) {
+						width: 100%;
+						display: block;
+					}
+					@media screen and (min-width: 800px) {
+						width: 35%;
+						display: inline-block;
+						margin-bottom: 0%;
+						padding-right: 5%;
+						box-sizing: border-box;
+					}
+
+					p {
+						margin-bottom: 5%;
+
+						&:last-child {
+							margin-bottom: 0%;
+						}
+					}
+				} // END GRID-2
+
+				.grid-1 {
+					background-color: rgba(50,50,50,0.20);
+					margin-bottom: 5%;
+					padding: 5%;
+					box-sizing: border-box;
+
+					@media screen and (min-width: 600px) {
+						width: 100%;
+						display: block;
+						margin-bottom: 2%;
+					}
+					@media screen and (min-width: 800px) {
+						height: 220px;
+						width: 20%;
+						display: inline-block;
+						margin-bottom: 0%;
+						padding: 2%;
+						vertical-align: top;
+						text-align: center;
+
+						h6 {
+							margin-bottom: 10%;
+						}
+					}
+				} // END GRID-1
+			} // END ROW-2
+		} // END GRID-5
+	} // END CONTACT SECTION
+
+	#work {
+		height: auto;
+		width: 100%;
+		padding: 20% 10%;
+		box-sizing: border-box;
+		background-color: $hd-darkgreen;
+		background-image: url("../img/work-background.svg");
+		background-size: cover;
+		background-repeat: no-repeat;
+		background-position: 50% 50%;
+
+		@media screen and (min-width: 800px) {
+			padding: 10% 5%;
+		}
+
+		.grid-2 {
+			@media screen and (min-width: 600px) {
+				width: 100%;
+				display: block;
+			}
+			@media screen and (min-width: 800px) {
+				width: 40%;
+				display: inline-block;
+				padding-left: 5%;
+				box-sizing: border-box;
+				float: left;
+
+				h2 {
+					font-size: 3.75em;
+				}
+			}
+		}
+
+		.grid-3 {
+			@media screen and (min-width: 600px) {
+				width: 100%;
+				display: block;
+			}
+
+			@media screen and (min-width: 800px) {
+				width: 60%;
+				display: inline-block;
+				float: left;
+			}
+
+			p {
+				margin-bottom: 5%;
+			}
+
+			ul {
+				background-color: rgba(255,255,255,0.10);
+				padding: 5% 10%;
+				box-sizing: border-box;
+
+				li {
+					font-family: "Times New Roman", Georgia, serif;
+					font-size: 0.70em;
+					margin-bottom: 3%;
+
+					@media screen and (min-width: 400px) {
+						font-size: 0.80em;
+					}
+					@media screen and (min-width: 600px) {
+						font-size: 0.90em;
+					}
+					@media screen and (min-width: 800px) {
+						font-size: 1.00em;
+					}
+				} // END LI
+			} // END UL
+		} // END GRID-3
+	} // END WORK SECTION
+}

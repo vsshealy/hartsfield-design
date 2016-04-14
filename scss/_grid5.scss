@@ -1,0 +1,102 @@
+// HARTSFIELD DESIGN
+// BASE IMPORT FILE
+
+.grid-1 {
+	width: 100%;
+
+	@media screen and (min-width: 400px) {
+		width: 100%;
+	}
+	@media screen and (min-width: 600px) {
+		width: 50%;
+	}
+	@media screen and (min-width: 800px) {
+		width: 20%;
+	}
+	@media screen and (min-width: 1000px) {
+		width: 20%;
+	}
+	@media screen and (min-width: 1200px) {
+		width: 20%;
+	}
+}
+
+.grid-2 {
+	width: 100%;
+
+	@media screen and (min-width: 400px) {
+		width: 100%;
+	}
+	@media screen and (min-width: 600px) {
+		width: 50%;
+	}
+	@media screen and (min-width: 800px) {
+		width: 40%;
+	}
+	@media screen and (min-width: 1000px) {
+		width: 40%;
+	}
+	@media screen and (min-width: 1200px) {
+		width: 40%;
+	}
+}
+
+.grid-3 {
+	width: 100%;
+
+	@media screen and (min-width: 400px) {
+		width: 100%;
+	}
+	@media screen and (min-width: 600px) {
+		width: 50%;
+	}
+	@media screen and (min-width: 800px) {
+		width: 60%;
+	}
+	@media screen and (min-width: 1000px) {
+		width: 60%;
+	}
+	@media screen and (min-width: 1200px) {
+		width: 60%;
+	}
+}
+
+.grid-4 {
+	width: 100%;
+
+	@media screen and (min-width: 400px) {
+		width: 100%;
+	}
+	@media screen and (min-width: 600px) {
+		width: 100%;
+	}
+	@media screen and (min-width: 800px) {
+		width: 80%;
+	}
+	@media screen and (min-width: 1000px) {
+		width: 80%;
+	}
+	@media screen and (min-width: 1200px) {
+		width: 80%;
+	}
+}
+
+.grid-5 {
+	width: 100%;
+
+	@media screen and (min-width: 400px) {
+		width: 100%;
+	}
+	@media screen and (min-width: 600px) {
+		width: 100%;
+	}
+	@media screen and (min-width: 800px) {
+		width: 100%;
+	}
+	@media screen and (min-width: 1000px) {
+		width: 100%;
+	}
+	@media screen and (min-width: 1200px) {
+		width: 100%;
+	}
+}

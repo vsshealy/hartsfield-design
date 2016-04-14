@@ -1,43 +1,46 @@
-// PAGE TEMPLATE SITE
+// HARTSFIELD DESIGN
 // GLOBAL STYLING
 
 * {
 	margin: 0%;
 	padding: 0%;
-
-	@media screen and (min-width: 400px) {}
-	@media screen and (min-width: 600px) {}
-	@media screen and (min-width: 800px) {}
-	@media screen and (min-width: 1000px) {}
-	@media screen and (min-width: 1200px) {}
 }
 
 html {
 	height: auto;
 	width: 100vw;
-
-	@media screen and (min-width: 400px) {}
-	@media screen and (min-width: 600px) {}
-	@media screen and (min-width: 800px) {}
-	@media screen and (min-width: 1000px) {}
-	@media screen and (min-width: 1200px) {}
+	font-family: Helvetica, Arial, sans-serif;
+	color: #ffffff;
 }
 
-body {
-	@media screen and (min-width: 400px) {}
-	@media screen and (min-width: 600px) {}
-	@media screen and (min-width: 800px) {}
-	@media screen and (min-width: 1000px) {}
-	@media screen and (min-width: 1200px) {}
-}
+body {}
 
 #content-wrapper {
 	height: auto;
 	width: auto;
+}
 
-	@media screen and (min-width: 400px) {}
-	@media screen and (min-width: 600px) {}
-	@media screen and (min-width: 800px) {}
-	@media screen and (min-width: 1000px) {}
-	@media screen and (min-width: 1200px) {}
+section {
+	height: auto;
+	width: 100%;
+	display: block;
+	padding: 4%;
+	box-sizing: border-box;
+	border-bottom: 2px solid #ffffff;
+}
+
+.clearfix {
+	zoom: 1;
+
+	&:before, &:after {
+		content: "";
+		display: table;
+	}
+	&:after {
+		clear: both;
+	}
+}
+
+.clear {
+	clear: both;
 }

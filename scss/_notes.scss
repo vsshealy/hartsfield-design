@@ -1,4 +1,4 @@
-// PAGE TEMPLATE SITE
+// HARTSFIELD DESIGN
 // SITE NOTES
 
 // SECTION TEMPLATE
@@ -7,3 +7,27 @@
 @media screen and (min-width: 800px) {}
 @media screen and (min-width: 1000px) {}
 @media screen and (min-width: 1200px) {}
+
+
+// THIS IS FOR THE JQUERY HEADER PADDING RESIZE FUNCTION
+$( function(){
+
+	//header
+	var header = $( "#header-primary" );
+	var content = $( ".content-wrapper" );
+
+	var resize = function resize(){
+
+		// if( $( window ).width() < 900 ){
+
+		// 	content.css( { "padding-top" : header.innerHeight() } );
+		// }
+		// else{
+		// 	content.removeAttr( "style" );
+		// }
+
+		content.css( { "padding-top" : header.innerHeight() } );
+	};
+
+	$( window ).on( "load, resize", function( e ){ resize(); } );
+} );

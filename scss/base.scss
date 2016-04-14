@@ -1,12 +1,15 @@
-// PAGE TEMPLATE SITE
+// HARTSFIELD DESIGN
 // BASE IMPORT FILE
 
 // TEMPLATE IMPORTS
+@import "colors";
+@import "global";
+@import "grid5";
+@import "text";
 @import "pagestyles";
-@import "grid12";
 @import "devices";
 
 // CUSTOM SITE IMPORTS
-@import "global";
-@import "text";
-@import "colors";
+@import "header";
+@import "footer";
+@import "home";
